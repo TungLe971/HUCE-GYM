@@ -1,0 +1,225 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+li.menu-li.menu-li-nuoc {
+    background-color: rgb(68, 84, 106);
+}
+
+
+
+/* css của sắp xếp */
+select.nuoc__select {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 5px;
+    border: 1px solid #2F528F;
+    border-width: 5px;
+    float: right;
+    border-radius: 10px;
+    background-color: #daeaf3;
+}
+
+input.nuoc--sort {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 5px;
+    border: 1px solid #2F528F;
+    border-width: 5px;
+    float: right;
+    border-radius: 10px;
+    background-color: #daeaf3;
+}
+
+/* CSS của hiển thị */
+.nuoc__div--hienthi{
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.nuoc__table_row--hienthi{
+    height: 30px;
+}
+
+div tr.nuoc__table--Tieu_de {
+    background-color: #4472C4;
+
+}
+.nuoc__modal__div--popup{
+    width: 100%;
+}
+table.nuoc__table--hienthi {
+    color: black;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.nuoc__table--hienthi tr:nth-child(even) {
+    background-color: #E9EBF5;
+  }
+
+.nuoc__table--hienthi tr:nth-child(odd) {
+    background-color: #CFD5EA;
+}
+
+.nuoc__table--hienthi tr th.nuoc__table--pass_tap {
+    border: 1px solid #2F528F;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 2px;
+}
+.nuoc__table--hienthi tr th.nuoc__table--pass_tap a {
+    color: black;
+    width: 100%;
+}
+
+.nuoc__table--hienthi tr th.nuoc__table--pass {
+    background-color: white;
+}
+
+/* them--popup */
+.nuoc__modal--popup {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.nuoc__modal--popup--open{
+    display: flex;
+}
+.nuoc__modal__div--popup {
+    width: 500px;
+    position: relative;
+    background-color: lightblue;
+    height: 400px;
+    border-radius: 20px;
+    border: 5px solid #2F528F;
+    animation: slide-in 1s forwards;
+}
+.nuoc__modal__div--u{  
+    position: absolute;
+    font-size: 22px;
+    margin-left: 20px;
+    top: 3%;
+}
+table.nuoc__table--addform {
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    background-color: lightblue;
+    
+}
+.nuoc__table--add-button{
+    padding: 5px;
+    border: 1px solid #2F528F;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #daeaf3;
+    margin-left: 5px;
+    float: right;
+    margin-top: 12px;
+}
+.nuoc__table--button_huy{
+    background-color: red;
+}
+.nuoc__table--add_input{
+    height: 20px;
+}
+
+/* css của button thêm sửa xóa */
+.nuoc__div--button{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #2F528F;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #daeaf3;
+   
+}
+
+.nuoc__div--chua_button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.nuoc__div--button_xoa{
+    margin-right: 30px;
+    background-color: red;
+}
+
+input.nuoc--page {
+    margin-left: 5px;
+}
+
+.nuoc__div--tap {
+    display: flex;
+    margin-left: 7%;
+}
+
+li.nuoc__div {
+    border: 1px solid #2F528F;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 2px; 
+    margin-right: 5px;
+}
+.nuoc__div--tnuoc{
+    background-color: rgb(68, 84, 106);
+}
+.nuoc__div--ttpcn{
+    background-color: #daeaf3;
+}
+
+.nuoc__form--page{
+    margin-top: 5px;
+}
+
+.nuoc__div--search--sort {
+    float: right;
+    display: flex;
+}
+
+.nuoc__form--search {
+    margin-top: 1.5%;
+    margin-right: 275px;
+}
+
+.nuoc__form__div--search {
+    border-bottom: 2px groove;
+}
+.nuoc__input--search {
+    height: 31px;
+    border: none;
+}
+input.nuoc__input--search {
+    width: 219px;
+    outline: none;
+}
+button.nuoc__input--search {
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: blue;
+    font-size: 17px;
+}
+

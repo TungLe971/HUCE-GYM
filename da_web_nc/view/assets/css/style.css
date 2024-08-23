@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    cursor: pointer;
+    background-color: rgb(158, 166, 177);
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 10px 0px 0px 10px;
+}
+
+.logout{
+    display: flex;
+    padding: 0px 10px 0px 60px;
+}
+.logout>li{
+    padding: 0px 12px;
+}
+.logout>li>a{
+    color: rgb(68, 114, 196);
+    font-size: 30px;
+}
+.logout>li>a:hover{
+    color: rgb(255, 166, 71);
+}
+.logout>li>a>i{
+    font-size: 30px;
+}
+.logout>li>a.hotline{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    background-color: rgb(132, 151, 176);
+    height: 50px;
+}
+.menu>li{
+    line-height: 50px;
+    padding: 0px 20px;
+}
+.menu>li>a{
+    color: white;
+    
+}
+.menu>li:hover{
+    background-color: rgb(68, 84, 106);
+    cursor: pointer;
+}
+
+

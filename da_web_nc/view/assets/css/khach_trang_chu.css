@@ -1,0 +1,430 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+.ktc--dem_header{
+    height: 80px;
+    width: 100%;
+}
+
+.header--title {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+img.ktc_header__img--logo {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+
+.ktc_header__div--logo {
+    flex-grow: 1;
+}
+
+.ktc_header__div {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* dang nhap */
+.ktc__div--dang_nhap {
+    height: 497px;
+    background-color: black;
+    width: 350px;
+    position: fixed;
+    margin-right: 15px;
+    right: 0;
+}
+.n{
+    height: 1000px;
+    background-color: yellow;
+}
+
+li.ktc_header__li.ktc_header__li--dang_nhap {
+    border: 1px;
+    background-color: #00b63e;
+    padding: 7px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+a.ktc_header__a.ktc_header__a--dang_nhap {
+    color: white;
+}
+
+a.ktc_header__a.ktc_header__a--dang_ky {
+    border: 1px solid #00b63e;
+    padding: 7px;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #00b63e;
+}
+
+
+/* slider */
+img.ktc__div--slider__img {
+    width: 100%;
+}
+
+/* hoi vien */
+div#ktc_hoi_vien {
+    height: 660px;
+    display: table;
+    width:100%;
+}
+p.ktc_hoi_vien__p {
+    color: inherit;
+    font-family: math;
+    margin-top: 80px;
+    font-size: 29px;
+}
+div#ktc_hoi_vien {
+    background-color: ghostwhite;
+}
+.ktc_hoi_vien__div {
+    display: flex;
+    justify-content: space-around;
+}
+img.ktc_hoi_vien__div__img {
+    width: 200px;
+    margin-top: 10px;
+}
+.ktc_hoi_vien__div--thong_so_so {
+    margin-top: 32px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+}
+.ktc_hoi_vien__div--thong_so--yellow{
+    height: 100%;
+    width: 207px;
+    background-color: #fecc09;
+}
+.ktc_hoi_vien__div--thong_so--white{
+    height: 100%;
+    width: 207px;
+    background-color: white;
+}
+.ktc_hoi_vien__div--thong_so--sl {
+    
+        font-family: 'svn-veneerregular' !important;
+        font-size: 55px;
+        font-weight: 400;
+        color: #000000;
+        line-height: 1.3em;
+        margin-top: 36px;
+    
+}
+h2.ktc_hoi_vien__div--thong_so--ten {
+    font-size: 16px;
+}
+
+/* nuoc va thuc pham */
+div#ktc_nuoc_va_thuc_pham {
+    height: 660px;
+    background-color: green;
+}
+
+/* nhan vien */
+div#ktc_nhan_vien {
+    background-color: black;
+    height: 660px;
+    display: table;
+    width:100%;
+}
+h2.ktc_nhan_vien__div--thong_so--hqc {
+    color: white;
+    font-family: math;
+    font-size: 29px;
+}
+.ktc_nhan_vien__div {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+h2.ktc_nhan_vien__h2 {
+    color: white;
+}
+p.ktc_nhan_vien__p {
+    color: inherit;
+    font-family: math;
+    margin-top: 80px;
+    font-size: 29px;
+}
+img.ktc_nhan_vien__div__img {
+    width: 200px;
+    margin-top: 10px;
+    
+}
+h4.ktc_nhan_vien__h4 {
+    color: wheat;
+}
+.ktc_nhan_vien__span {
+    background-color: #fecc09;
+    margin-top: 45px;
+    width: 106px;
+    height: 3px;
+}
+
+/* co so vat chat */
+div#ktc_co_so_vat_chat {
+    background-color: #fecc09;
+    height: 660px;
+    display: table;
+    width: 100%;
+}
+h2.ktc_co_so_vat_chat__div--thong_so--hqc {
+    color: black;
+    font-family: math;
+    font-size: 29px;
+}
+.ktc_co_so_vat_chat__div {
+    padding-top: 83px;
+    display: flex;
+    justify-content: space-around;
+}
+h2.ktc_co_so_vat_chat__h2 {
+    color: white;
+}
+p.ktc_co_so_vat_chat__p {
+    color: inherit;
+    font-family: math;
+    margin-top: 36px;
+    font-size: 29px;
+}
+img.ktc_co_so_vat_chat__div__img {
+    width: 200px;
+    margin-top: 10px;
+    
+}
+h4.ktc_co_so_vat_chat__h4 {
+    color: wheat;
+}
+.ktc_co_so_vat_chat__span {
+    background-color: black;
+    margin-top: 45px;
+    width: 106px;
+    height: 3px;
+}
+p.ktc_co_so_vat_chat__p {
+    color: dimgrey;
+    text-align: center;
+}
+.ktc_co_so_vat_chat__div--doan_chu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ktc_co_so_vat_chat__div--anhCSVC {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* su kien */
+
+/* Gói tập */
+div#ktc_goi_tap {
+    height: 660px;
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+
+.ktc_goi_tap__div--gio_hoat_dong {
+    width: 48%;
+    margin-left: 22px;
+    margin-top: 83px;
+}
+h2.ktc_goi_tap__h2--gio_hoat_dong {
+    margin-left: 40px;
+}
+.ktc_goi_tap__div--gio_hoat_dong--ke_ngang {
+    background-color: #fecc09;
+    margin-top: 12px;
+    width: 38px;
+    height: 3px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+table.ktc_goi_tap__table--gio_hoat_dong {
+    width: 100%;
+    border-spacing: 36px;
+    font-size: 24px;
+}    
+td.ktc_goi_tap__table--gio_hoat_dong--gio {
+    text-align: right;
+}
+
+.ktc_goi_tap__div--goi_tap {
+    width: 48%;
+    margin-right: 22px;
+    margin-top: 83px;
+}
+h2.ktc_goi_tap__h2--goi_tap {
+    margin-left: 20%;
+}
+.ktc_goi_tap__div--goi_tap--ke_ngang {
+    background-color: #fecc09;
+    margin-top: 12px;
+    width: 38px;
+    height: 3px;
+    margin-bottom: 25px;
+    margin-left: 20%;
+}
+.ktc_goi_tap__div--goi_tap--menu {
+    height: 43px;
+    margin-left: 20%;
+    background-color: black;
+    display: flex;
+}
+span.ktc_goi_tap__span--goi_tap--menu {
+    margin-left: 12px;
+    color: white;
+}
+.ktc_goi_tap__div--goi_tap--content {
+    height: 365px;
+    background-color: #fecc09;
+    margin-left: 20%;
+    display: none;
+}
+i.fa-solid.fa-plus {
+    color: white;
+    margin-top: 13px;
+}
+strong.ktc_goi_tap__strong--goi_tap--content {
+    margin-left: 31px;
+}
+p.ktc_goi_tap__p--goi_tap--content {
+    margin-left: 31px;
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ktc_goi_tap__div--goi_tap--content--bao_quanh {
+    padding-top: 33px;
+}
+.ktc_goi_tap__div--goi_tap__span {
+    padding-top: 13px;
+}
+
+/* ktc__footer */
+.ktc__footer {
+    height: 393px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.ktc__footer__div {
+    background-color: black;
+    width: 15%;
+    padding-top: 32px;
+    color: white;
+}
+strong.ktc__footer__strong {
+    display: block;
+    line-height: 45px;
+}
+.ktc__footer__div.ktc__footer__div1 {
+    width: 23%;
+    color: beige;
+}
+.ktc_footer__div--ke_ngang {
+    background-color: #fecc09;
+    width: 61px;
+    height: 4px;
+}
+li.ktc_footer__li {
+    display: contents;
+    line-height: 45px;
+}
+a.ktc_footer__a {
+    margin-right: 10px;
+    color: beige
+}
+.ktc__footer__div.ktc__footer__div2 {
+    width: 14%;
+}
+a.ktc_footer_mang_xa_hoi__a {
+    color: beige;
+    font-size: 15px;
+}
+
+.ktc__footer__div.ktc__footer__div3 {
+    width: 30%;
+}
+strong.ktc__footer__strong.ktc__footer__strong-- {
+    color: #fecc09;
+}
+i.fa-solid.ktc_goi_tap_i1--goi_tap--menu.fa-minus {
+    color: white;
+    margin-top: 13px;
+}
+i.fa-solid.ktc_goi_tap_i2--goi_tap--menu.fa-minus {
+    color: white;
+    margin-top: 13px;
+}
+i.fa-solid.ktc_goi_tap_i3--goi_tap--menu.fa-minus {
+    color: white;
+    margin-top: 13px;
+}
+
+.ktc__div--slider--left {
+    position: absolute;
+    top: 48%;
+}
+i.fa-solid.fa-less-than.ktc__div--slider--left--arrow {
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    display: none;
+    cursor: pointer;
+
+}
+.ktc__div--slider--bao_quanh:hover i.fa-solid.fa-less-than.ktc__div--slider--left--arrow {
+    display: block;
+}
+
+.ktc__div--slider--right {
+    position: absolute;
+    top: 48%;
+    right: 0%;
+
+}
+i.fa-solid.fa-greater-than.ktc__div--slider--right--arrow {
+    font-size: 40px;
+    color: white;
+    margin-right: 20px;
+    display: none;
+    cursor: pointer;
+}
+.ktc__div--slider--bao_quanh:hover i.fa-solid.fa-greater-than.ktc__div--slider--right--arrow {
+    display: block;
+}

@@ -1,0 +1,229 @@
+.clear{
+    clear: both;
+}
+
+.main-hoivien {
+    display: flex;
+    padding: 30px 15px 0 15px;
+    height: 560px;
+}
+/* animation */
+@keyframes growth {
+    from {
+        transform: scale(0.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+/* tim kiem hoi vien */
+.hoivien__search-view {
+    width: calc(100% - 83%);
+    height: 450px;
+    border: 4px solid #2F528F;
+    border-radius: 40px;
+}
+
+.hoivien__search-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    height: 50px;
+}
+
+.hoivien__search-input--icon {
+    display: flex;
+    font-size: 24px;
+    padding: 0 8px;
+    align-items: center;
+}
+
+.hoivien__search-input {
+    display: flex;
+}
+
+.hoivien__search-input input[type="text"] {
+    height: 40px;
+    width: 167px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+}
+
+.hoivien__search-input input[type="text"]::placeholder {
+    color: #999;
+}
+
+.hoivien__search-btn {
+    background-color: #dff0f5;
+    color: black;
+    font-size: 19px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    margin: 20px 35px;
+    cursor: pointer;
+    border: 3px solid #2F528F;
+}
+.hoivien__search-btn.active {
+    background-color: #2F528F;
+ }
+.hoivien__search-btn:hover {
+    background-color:  #2F528F;
+}
+/* bang hoi vien */
+.hoivien__table {
+    position: relative;
+    float: right;
+    width: calc(100% - 20%);
+    border: 1px solid #2F528F;
+    border-radius: 10px;
+    font-size: 18px;
+    border-width: 5px;
+    margin-left: 30px;
+}
+.hoivien__table-view {
+    width: 100%;
+}
+
+.hoivien__table-view--title {
+    height: 40px;
+}
+
+div tr.hoivien__table-view--title {
+    background-color: #4472C4;
+    font-size: 18px;
+}
+
+.hoivien__table-view--data {
+    height: 40px;
+    text-align: center;
+}
+.hoivien__table-view--data:nth-of-type(odd) {
+    background-color: #E9EBF5; 
+}
+
+.hoivien__table-view--data:nth-of-type(even) {
+    background-color: #CFD5EA; 
+}
+/* btn them sua xoa */
+.hoivien__AUD {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.hoivien__AUD-btn{ 
+    padding: 10px;
+    border: 1px solid #2F528F;
+    border-width: 5px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #daeaf3;
+    font-size: 21px;
+    font-weight: 600;
+}
+.hoivien__AUD-btn:hover ,
+.hoivien__table-add-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.hoivien__AUD-btn-del {
+    margin-right: 30px;
+    background-color: red;
+}
+/* popup hoi vien */
+.hoivien__modal-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.hoivien__modal-popup-open {
+    display: flex;
+}
+.hoivien__modal-popup-overlay {
+    position: relative;
+    width: 500px;
+    height: 430px;
+    background-color: lightblue;
+    border-radius: 30px;
+    border: 5px solid #2F528F;
+    animation: slide-in 1s forwards;
+}
+.hoivien__modal-popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 50px;
+}
+.hoivien_addform {
+    margin: auto;
+}
+.hoivien__table-add-input {
+    height: 30px;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.hoivien__table-add-input::placeholder {
+    color: #b3aeae;
+}
+.hoivien_addform label {
+    font-size: 20px;
+}
+.hoivien__table-add-input:focus,
+.hoivien__table-add-input-gioitinh {
+    border: 3px solid #2F528F;
+}
+.hoivien__table-add-input-gioitinh {
+    width: 37%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+/* css của button thêm sửa xóa */
+.hoivien__table-add-btn {
+    float: right;
+    padding: 5px;
+    margin-top: 15px;
+    border: 3px solid #2F528F;
+    border-radius: 25px;
+    background-color: #daeaf3;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hoivien__table-btn-huy {
+    margin-left: 10px;
+    background-color: red;
+}
+.hoivien_page {
+    margin-right: 5px;
+}
+/* suc khoe hoi vien */
+.hoivien__table-health-view {
+    display: none;
+    width: 100%;
+}

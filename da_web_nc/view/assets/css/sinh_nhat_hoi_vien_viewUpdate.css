@@ -1,0 +1,21 @@
+.view_gift__modal--popup {
+    height: 100%;
+}
+.view_gift__modal__div--popupUpdate {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input.view_gift__table--add_input {
+    height: 28px;
+    width: 284px;
+}
+label {
+    font-size: 36px;
+}
+
+button.view_gift__table--add-button {
+    font-size: 20px;
+}

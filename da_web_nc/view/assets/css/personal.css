@@ -1,0 +1,270 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+li.menu-li.menu-li-nhan_vien {
+    background-color: rgb(68, 84, 106);
+}
+
+td.personal_table_td-hienthi-td {
+    height: 40px;
+}
+
+.personal_table-Tieu_de{
+    text-align: center; 
+    font-size: 20px;
+}
+
+/* css của sắp xếp */
+
+.personal_form-search {
+    font-size: 20px;
+    
+}
+
+.personal_search-input-icon {
+    font-size: 22px;
+}
+
+.personal_icon-search {
+    cursor: pointer;
+    padding: 10px 0px 0px 0px;
+    margin-right: 10px;
+    background: #4f82e3;
+    color: blue;
+    font-size: 22px;
+    border: none;
+}
+
+.personal_div-search-sort {
+    margin-left: 80px;
+    margin-bottom: 7px;
+    display: flex;
+}
+
+.personal_input-search {
+    cursor: pointer;
+    padding: 0px 0px 0px 16px;
+    height: 31px;
+    border: none;
+}
+
+/* .personal_form_div-search {
+    border-bottom: 2px groove;
+} */
+
+input.personal-sort {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input.personal_input-search {
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 219px;
+}
+
+/* CSS của hiển thị */
+.personal_div-hienthi{
+    background: #82baff;
+    display: flex;
+}
+
+.personal_div-hienthi1{
+    background: #bee2ff;
+    text-align: center;
+    margin-left: 47px;
+    height: 450px;
+    margin-top: 30px;
+    width: 13%;
+    border: 3px solid rgb(7, 17, 21);
+    border-radius: 25px;
+}
+
+.personal_div-hienthi2{
+    background: #4f82e3;
+    text-align: center;
+    margin-left: 62px;
+    margin-top: -13px;
+    width: 76%;
+    border: 1px solid white;
+}
+
+.personal_table-hienthi{
+    /* border-top: 5px solid rgb(80, 118, 243);
+    border-left: 5px solid rgb(60, 92, 198);
+    border-right: 5px solid rgb(44, 67, 145);
+    border-bottom: 5px solid rgb(19, 29, 61); */
+    border-radius: 10px;
+}
+
+.personal_table_row-hienthi{
+    height: 30px;
+}
+
+.personal_modal_div-popup{
+    width: 100%;
+}
+
+table.personal_table-hienthi {
+    color: black;   
+    width: 100%;
+}
+
+.personal_table-hienthi tr:nth-child(even) {
+    background-color: #E9EBF5;
+  }
+
+.personal_table-hienthi tr:nth-child(odd) {
+    background-color: #CFD5EA;
+}
+
+.personal_table-hienthi tr th.personal_table-pass_tap {
+    border: 1px solid #2F528F;
+    border-radius: 10px;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 2px;
+}
+.personal_table-hienthi tr th.personal_table-pass_tap a {
+    color: black;
+    width: 100%;
+}
+
+.personal_table-hienthi tr th.personal_table-pass {
+    background-color: white;
+}
+
+/* them--popup */
+.personal_modal-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.personal_modal-popup-open{
+    display: flex;
+}
+.personal_modal_div-popup {
+    width: 500px;
+    position: relative;
+    background-color: lightblue;
+    height: 400px;
+    border-radius: 20px;
+}
+.personal_modal_div-u{  
+    position: absolute;
+    font-size: 22px;
+    margin-left: 20px;
+    top: 3%;
+}
+table.personal_table-addform {
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    background-color: lightblue;
+    
+}
+.personal_table-add-button{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #2F528F;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #daeaf3;
+    margin-left: 5px;
+    margin-top: 12px;
+    float: right;
+}
+.personal_table-button_huy{
+    background-color: red;
+}
+
+.personal_table-add_input{
+    width: 169px;
+    height: 25px;
+}
+
+.personal_div-button:active {
+    background-color: #7ba0e0;
+}
+
+/* css của button thêm sửa xóa */
+.personal_div-button{
+    cursor: pointer;
+    width: 88%;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #2F528F;
+    border-width: 3.5px;
+    border-radius: 30px;
+    background-color: #daeaf3;
+   
+}
+
+.personal_div-chua_button{
+    margin-top: 165px;
+   
+}
+
+.personal_div-button_xoa{
+    background-color: red;
+}
+
+.personal_div-button_xoa:active{
+    background-color: rgb(173, 8, 8);
+}
+
+input.personal-page {
+    cursor: pointer;
+    text-align: center;
+}
+
+.personal_div-tap {
+    margin: 7px;
+}
+
+li.personal_div {
+    margin-top: 4px;
+    border: 1px solid #2F528F;
+    border-radius: 30px;
+    font-size: 20px;
+    border-width: 3px;
+    padding: 12px; 
+}
+.personal_div-personal{
+    background-color: rgb(106, 135, 176);
+}
+.personal_div-class{
+    background-color: #daeaf3;
+}
+
+.personal_form-page{
+    margin-left: 220px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+i.fa-solid.fa-arrow-left {
+    cursor: pointer;
+    font-size: 33px;
+    color: blue;
+    margin-left: 10px;
+}

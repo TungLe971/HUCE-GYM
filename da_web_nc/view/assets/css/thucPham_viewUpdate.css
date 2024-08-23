@@ -1,0 +1,21 @@
+.tp__modal--popup {
+    height: 100%;
+}
+.tp__modal__div--popup {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input.tp__table--add_input {
+    height: 28px;
+    width: 284px;
+}
+label {
+    font-size: 31px;
+}
+
+button.tp__table--add-button {
+    font-size: 20px;
+}
